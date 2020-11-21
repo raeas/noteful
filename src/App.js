@@ -18,12 +18,11 @@ class App extends React.Component {
       <main style={{display:'flex'}}>
         <section>
           <Route path='/' component={Header} />
-          {/* <Route path='/' component={Header} /> */}
           <Route path='/' component={SideBar} />
         </section>
         <section>
           <Route path='/folder/:folderId' component={FolderList} />
-          <Route path='/' component={FolderList} />
+          <Route exact path='/' component={FolderList} />
           <Route path='/note/:noteId' component={Note} />
         </section>
       </main>

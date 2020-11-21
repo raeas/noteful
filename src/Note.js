@@ -6,7 +6,6 @@ export default function Note (props) {
   const noteId = props.match.params.noteId
   const note = STORE.notes.find(note => note.id === noteId)
   return (
-    // <h1>SideBar</h1>
     <div>
       <p>{note.name}</p>
       <p>{note.modified}</p>
