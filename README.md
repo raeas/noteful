@@ -8,5 +8,5 @@ This project is an exercise for Thinkful's "React Router" checkpoint
 
 ### Tech Stack
 * React.js
-* HTML
+* JSX
 * JavaScript
